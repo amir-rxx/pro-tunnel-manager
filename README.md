@@ -21,4 +21,4 @@
 سریع‌ترین و راحت‌ترین راه برای اجرای این ابزار، استفاده از دستور زیر است. فقط کافیست این یک خط را در ترمینال سرور خود کپی کرده و اینتر بزنید:
 
 ```bash
-bash <(curl -Ls [https://raw.githubusercontent.com/amir-rxx/pro-tunnel-manager/main/enterprise_tunnel.sh](https://raw.githubusercontent.com/amir-rxx/pro-tunnel-manager/main/enterprise_tunnel.sh))
+bash <(curl -Ls https://raw.githubusercontent.com/amir-rxx/pro-tunnel-manager/main/enterprise_tunnel.sh)
