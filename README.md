@@ -1,6 +1,3 @@
-# pro-tunnel-manager
-A professional Bash script to manage SSH Tunnels automatically.
-
 # 🚀 ابزار مدیریت پیشرفته تانل SSH (Enterprise Tunnel Manager)
 
 یک اسکریپت قدرتمند، تعاملی و بسیار آسان برای ساخت و مدیریت تانل‌های SSH در سرورهای لینوکسی (Ubuntu/Debian). 
@@ -16,14 +13,12 @@ A professional Bash script to manage SSH Tunnels automatically.
 * **⚙️ تبدیل به سرویس دائمی (Systemd):** فقط با یک کلیک، تانل خود را به یک سرویس لینوکسی تبدیل کنید تا حتی با ری‌استارت شدن سرور، تانل به صورت خودکار اجرا شود!
 * **🛑 کنترل کامل:** مشاهده تمام تانل‌های فعال در پس‌زمینه و امکان بستن (Kill) آن‌ها به راحتی.
 * **🤖 نصب خودکار پیش‌نیازها:** اگر ابزارهایی مثل `sshpass` یا `autossh` روی سرور شما نصب نباشند، اسکریپت خودش آن‌ها را نصب می‌کند.
-* **🌍 سازگاری کامل متن‌ها (Finglish):** پیام‌های داخل اسکریپت به صورت فینگلیش نوشته شده‌اند تا در تمام ترمینال‌ها (حتی نسخه‌های قدیمی یا بدون پشتیبانی از زبان فارسی) بدون مشکل و به‌هم‌ریختگی نمایش داده شوند.
 
 ---
 
-## 🛠️ آموزش نصب و استفاده سریع
+## 🛠️ آموزش اجرای سریع (Quick Run)
 
-برای استفاده از این ابزار کافیست دستورات زیر را در ترمینال سرور خود کپی و اجرا کنید:
+سریع‌ترین و راحت‌ترین راه برای اجرای این ابزار، استفاده از دستور زیر است. فقط کافیست این یک خط را در ترمینال سرور خود کپی کرده و اینتر بزنید:
 
-**۱. دانلود اسکریپت:**
 ```bash
-wget [https://raw.githubusercontent.com/amir-rxx/pro-tunnel-manager/main/enterprise_tunnel.sh](https://raw.githubusercontent.com/amir-rxx/pro-tunnel-manager/main/enterprise_tunnel.sh)
+bash <(curl -Ls [https://raw.githubusercontent.com/amir-rxx/pro-tunnel-manager/main/enterprise_tunnel.sh](https://raw.githubusercontent.com/amir-rxx/pro-tunnel-manager/main/enterprise_tunnel.sh))
